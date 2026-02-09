@@ -1,0 +1,24 @@
+.header {
+  height: 91vh;
+  // position: relative; // Stacking context for children
+
+  background-image: linear-gradient(to right bottom, #ffffff75, #c72e6685),
+    url(/img/1.webp);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  &__logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+  &__logo {
+    height: 35px;
+  }
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
