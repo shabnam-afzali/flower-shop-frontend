@@ -1,15 +1,16 @@
 .navbar {
   display: block;
-  position: sticky; // Make the navbar sticky
-  top: 0; // Stick to the top of the viewport
-  padding: 1rem; // Add padding for spacing
-  display: flex; // Align items in a row
+  position: sticky;
+  top: 0;
+  padding: 1rem;
+  display: flex;
   justify-content: space-around; // Space out links
   background-color: $color-white;
-  height: 4rem !important;
+  height: 4.5rem !important;
   z-index: 100;
   gap: 5rem;
   font-weight: 600;
+  font-size: 1.8rem;
 }
 .navbar a {
   text-decoration: none;

@@ -1,0 +1,41 @@
+.footer {
+  background-color: rgba(243, 243, 243, 0.719);
+  padding: 4rem 6rem;
+  color: $color-gray-dark;
+
+  &__box {
+    display: flex;
+    gap: 6rem;
+
+    justify-content: space-around;
+  }
+  &__column {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+  }
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__item {
+    font-size: 1.6rem;
+    margin-top: 2.3rem;
+    &--bold {
+      font-size: 1.8rem;
+
+      color: rgb(15, 15, 15);
+    }
+  }
+  &__text {
+    font-size: 1.6rem;
+
+    margin-top: 2.3rem;
+    &--bold {
+      font-size: 1.8rem;
+      color: rgb(15, 15, 15);
+    }
+  }
+}

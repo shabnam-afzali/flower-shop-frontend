@@ -1,13 +1,38 @@
 .flowers {
   background-color: $color-gray-light-1;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+
+  flex-direction: column;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
   &-content {
     padding: 9.6rm 1rem !important;
     margin-top: 3rem;
+  }
+  @media (max-width: 65rem) {
+    display: flex;
+    flex-direction: column;
   }
 }
 .section-favorites {
   background-color: $color-gray-light-1;
   padding: 25rem 0;
+}
+.section-comments {
+  background-color: $color-gray-light-1;
+
+  padding: 4rem 0;
+  position: relative;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.85),
+      rgba(166, 70, 99, 0.55)
+    ),
+    url("../../img/bg.jpg");
+  background-size: cover;
+  background-position: top;
 }
