@@ -192,19 +192,18 @@ html {
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
   height: 100vh; }
-  @media (max-width: 30rem) {
-    .cards-container {
-      margin-top: -8rem; } }
-  @media (max-width: 60rem) {
+  @media (max-width: 70rem) {
     .cards-container {
       grid-template-columns: repeat(2, 1fr);
       align-items: center;
-      gap: 5rem;
+      row-gap: 11rem;
+      column-gap: 5rem;
       padding: 8rem; } }
-  @media (max-width: 20rem) {
+  @media (max-width: 40rem) {
     .cards-container {
       grid-template-columns: repeat(1, 1fr);
-      gap: 5rem;
+      row-gap: 11rem;
+      column-gap: 5rem;
       padding: 8rem; } }
 
 .card {
@@ -326,8 +325,7 @@ html {
     display: block;
     overflow: hidden;
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
-    width: 100%;
-    /* or any size you want */ }
+    width: 100%; }
     @media (max-width: 75em) {
       .gallery-item {
         grid-column: auto !important;
@@ -528,7 +526,16 @@ html {
 
 .section-favorites {
   background-color: #f7f7f7;
-  padding: 25rem 0; }
+  height: 120rem;
+  padding: 25rem 0;
+  display: flex;
+  flex-direction: column; }
+  @media (max-width: 960px) {
+    .section-favorites {
+      height: 170rem; } }
+  @media (max-width: 40rem) {
+    .section-favorites {
+      height: 290rem; } }
 
 .section-comments {
   background-color: #f7f7f7;

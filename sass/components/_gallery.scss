@@ -10,7 +10,6 @@
     grid-template-rows: repeat(5, 5vw);
     row-gap: 5rem;
     width: 70rem;
-    // min-height: 100vh; // or height: 100vh;
   }
   @media (max-width: 800px) {
     row-gap: 6.5rem;
@@ -19,7 +18,7 @@
     display: block;
     overflow: hidden;
     box-shadow: 0 1rem 1rem rgba($color-black, 0.2);
-    width: 100%; /* or any size you want */
+    width: 100%;
     @include respond(tab-land) {
       grid-column: auto !important;
       grid-row: auto !important;
