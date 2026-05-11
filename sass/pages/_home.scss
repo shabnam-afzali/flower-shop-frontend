@@ -11,12 +11,17 @@
 
   &-content {
     padding: 9.6rm 1.1rem !important;
-    margin-top: 3rem;
+    color: #474646;
+    margin-top: 1rem;
   }
-  @media (max-width: 65rem) {
-    display: flex;
-    flex-direction: column;
-  }
+  // @media (max-width: 65rem) {
+  //   display: flex;
+  //   flex-direction: column;
+  // }
+  // @include respond(tab-land) {
+  //   display: flex;
+  //   flex-direction: column;
+  // }
 }
 .section-favorites {
   background-color: $color-gray-light-1;
