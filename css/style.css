@@ -29,12 +29,10 @@ html {
       font-size: 50%; } }
   @media (max-width: 30rem) {
     html {
-      font-size: 34%;
-      background-color: red; } }
+      font-size: 34%; } }
   @media (max-width: 20rem) {
     html {
-      font-size: 27%;
-      background-color: red; } }
+      font-size: 27%; } }
 
 @keyframes moveInLeft {
   0% {
